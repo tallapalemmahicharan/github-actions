@@ -1,0 +1,8 @@
+name: Helloworld #workflow name
+on: [push] # event
+jobs: #it contsin multiple jobs
+  hello: #job name
+    runs-on: ubuntu-latest
+    steps:
+      - name: print Helloworld
+        run: "Hello-world"
